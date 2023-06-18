@@ -31,6 +31,7 @@ export interface RequestArgs {
    * Keys to be ignored, meaning that they will not be filtered out of the request payload even if they are a part of `urlParamKeys` or `queryParamKeys`,
    */
   ignoredKeys?: string[];
+  // headers?: AxiosRequestHeaders;
   headers?: AxiosRequestHeaders;
 }
 

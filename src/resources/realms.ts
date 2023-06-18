@@ -15,7 +15,7 @@ import {RealmEventsConfigRepresentation} from '../defs/realmEventsConfigRepresen
 import ComponentRepresentation from '../defs/componentRepresentation';
 import GlobalRequestResult from '../defs/globalRequestResult';
 import GroupRepresentation from '../defs/groupRepresentation';
-
+import ContentType, {AxiosRequestHeaders} from 'axios'
 export class Realms extends Resource {
   /**
    * Realm
@@ -349,7 +349,7 @@ export class Realms extends Resource {
     method: 'PUT',
     path: '/{realm}/localization/{selectedLocale}/{key}',
     urlParamKeys: ['realm', 'selectedLocale', 'key'],
-    headers: {'content-type': 'text/plain'},
+    headers: {'Content-Type': 'text/plain'},
   });
 
   public deleteRealmLocalizationTexts = this.makeRequest<

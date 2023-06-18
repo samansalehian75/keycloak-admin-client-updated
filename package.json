@@ -1,8 +1,11 @@
 {
-  "name": "@keycloak/keycloak-admin-client",
+  "name": "@alerting/keycloak-admin-client",
   "version": "18.0.2",
-  "description": "keycloak admin client",
+  "description": "keycloak admin client 18.0.2 updated",
   "main": "lib/index.js",
+  "maintainers": [
+    "samansalehian75"
+  ],
   "files": [
     "lib"
   ],
@@ -20,6 +23,7 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
+    "axios": "^0.26.1",
     "camelize-ts": "^1.0.8",
     "keycloak-js": "^17.0.1",
     "lodash": "^4.17.21",
@@ -35,7 +39,6 @@
     "@types/node": "^17.0.1",
     "@types/url-join": "^4.0.0",
     "@types/url-template": "^2.0.28",
-    "axios": "^1.4.0",
     "chai": "^4.1.2",
     "mocha": "^9.1.0",
     "nyc": "^15.1.0",
