@@ -13,13 +13,13 @@
 ## Install
 
 ```sh
-npm install @keycloak/keycloak-admin-client
+npm install @spara/keycloak-admin-client
 ```
 
 ## Usage
 
 ```js
-import KcAdminClient from '@keycloak/keycloak-admin-client';
+import KcAdminClient from '@spara/keycloak-admin-client';
 
 // To configure the client, pass an object to override any of these  options:
 // {

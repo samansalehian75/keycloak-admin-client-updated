@@ -1,6 +1,6 @@
 {
-  "name": "@alerting/keycloak-admin-client",
-  "version": "18.0.2",
+  "name": "@spara/keycloak-admin-client",
+  "version": "18.0.3",
   "description": "keycloak admin client 18.0.2 updated",
   "main": "lib/index.js",
   "maintainers": [
@@ -52,7 +52,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/keycloak/keycloak-nodejs-admin-client.git"
+    "url": "https://github.com/samansalehian75/keycloak-admin-client-updated"
   },
   "homepage": "https://www.keycloak.org/"
 }
