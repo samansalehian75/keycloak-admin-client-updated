@@ -47,6 +47,7 @@ export default interface RealmRepresentation {
   defaultOptionalClientScopes?: string[];
   defaultRoles?: string[];
   defaultRole?: RoleRepresentation;
+  defaultSignatureAlgorithm?: string;
   directGrantFlow?: string;
   displayName?: string;
   displayNameHtml?: string;
@@ -74,6 +75,8 @@ export default interface RealmRepresentation {
   maxFailureWaitSeconds?: number;
   minimumQuickLoginWaitSeconds?: number;
   notBefore?: number;
+  oauth2DeviceCodeLifespan?: number;
+  oauth2DevicePollingInterval?: number;
   offlineSessionIdleTimeout?: number;
   offlineSessionMaxLifespan?: number;
   offlineSessionMaxLifespanEnabled?: boolean;
@@ -84,6 +87,7 @@ export default interface RealmRepresentation {
   otpPolicyPeriod?: number;
   otpPolicyType?: string;
   otpSupportedApplications?: string[];
+  otpPolicyCodeReusable?: boolean;
   passwordPolicy?: string;
   permanentLockout?: boolean;
   // ProtocolMapperRepresentation
@@ -107,6 +111,10 @@ export default interface RealmRepresentation {
   ssoSessionIdleTimeout?: number;
   ssoSessionMaxLifespan?: number;
   supportedLocales?: string[];
+  ssoSessionMaxLifespanRememberMe?: number;
+  clientSessionIdleTimeout?: number;
+  clientSessionMaxLifespan?: number;
+  ssoSessionIdleTimeoutRememberMe?: number;
   // UserFederationMapperRepresentation
   userFederationMappers?: any[];
   // UserFederationProviderRepresentation
