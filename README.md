@@ -1,4 +1,4 @@
-## Keycloak Admin Client 18.0.2 Contains Newer Version Features
+## Keycloak Admin Client 18.0.2 Including Newer Version Features
 
 [![Github Actions](https://github.com/keycloak/keycloak-nodejs-admin-client/workflows/CI/badge.svg)](https://github.com/keycloak/keycloak-nodejs-admin-client/actions/workflows/main.yaml)
 [![npm version](https://badge.fury.io/js/%40keycloak%2Fkeycloak-admin-client.svg)](https://badge.fury.io/js/%40keycloak%2Fkeycloak-admin-client)
