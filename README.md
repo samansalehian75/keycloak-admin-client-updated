@@ -1,4 +1,4 @@
-## Keycloak Admin Client
+## Keycloak Admin Client 18.0.2 Update Adapted 'CommonJs'
 
 [![Github Actions](https://github.com/keycloak/keycloak-nodejs-admin-client/workflows/CI/badge.svg)](https://github.com/keycloak/keycloak-nodejs-admin-client/actions/workflows/main.yaml)
 [![npm version](https://badge.fury.io/js/%40keycloak%2Fkeycloak-admin-client.svg)](https://badge.fury.io/js/%40keycloak%2Fkeycloak-admin-client)
@@ -13,13 +13,13 @@
 ## Install
 
 ```sh
-npm install @spara/keycloak-admin-client
+npm install @alerting/keycloak-admin-client
 ```
 
 ## Usage
 
 ```js
-import KcAdminClient from '@spara/keycloak-admin-client';
+import KcAdminClient from '@alerting/keycloak-admin-client';
 
 // To configure the client, pass an object to override any of these  options:
 // {

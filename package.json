@@ -1,10 +1,10 @@
 {
-  "name": "@spara/keycloak-admin-client",
-  "version": "18.0.3",
-  "description": "keycloak admin client 18.0.2 updated",
+  "name": "@alerting/keycloak-admin-client",
+  "version": "18.0.2",
+  "description": "keycloak admin client 18.0.2 update",
   "main": "lib/index.js",
   "maintainers": [
-    "samansalehian75"
+    "saman salehian"
   ],
   "files": [
     "lib"
