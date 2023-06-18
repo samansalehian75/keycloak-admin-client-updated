@@ -1,6 +1,6 @@
 {
   "name": "@alerting/keycloak-admin-client",
-  "version": "18.0.2",
+  "version": "18.0.3",
   "description": "keycloak admin client 18.0.2 update",
   "main": "lib/index.js",
   "maintainers": [
